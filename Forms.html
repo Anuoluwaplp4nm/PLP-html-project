@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>STUDENT ENTRANCE FORM</title>
+        <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, 'Times New Roman', serif;
+        }
+        </style>
+    </head>
+    <body>
+        <p><h3>STUDENT ENTRANCE FORM</h3></p>
+        <form Action="" Method="Post">
+            <fieldset>
+                <legend>PERSONAL INFO:</legend>
+                <label for ="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name here."><br>
+            <label for ="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email here."><br>
+            <label for ="phone Number">Phone Number:</label>
+            <input type="text" id="phone Number" name="phone Number" placeholder="Enter your phone Number here."><br>
+            <label for ="phone Number">Date of Birth:</label>
+            <input type="text" id="DoB" name="DoB" placeholder="Enter your DoB."><br>
+            </fieldset>
+            <br/>
+            <Legend>ADDRESS:</Legend>
+            <textarea id="Address" name="Address" row="15" cols="25">
+                type in your Address.
+            </textarea>
+    
+            <fieldset>
+                <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male:</label> 
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female:</label><br>
+            </fieldset>
+            <br>
+        <fieldset>
+            <legend>Courses</legend>
+            <label>English Language</label><br>
+            <input type="checkbox" id="English Language" name="Courses" value="English Language">
+            <label for="paypal">Mathematics:</label><br>
+            <input type="checkbox" id="Mathematics" name="Courses" value="Mathematics">
+            <label for="mathematics">Mathematics:</label><br>
+            <input type="checkbox" id="Geography" name="Courses" value="Geography">
+            <label for="geography">Geography:</label><br>
+            <br>
+        </fieldset>
+            <label for ="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password here." aria-describedby="password hint"/>
+            <div id="password hint">
+                password must be at least 8 charater long.
+            </div><br>
+            <button type="submit">Register</button>
+            <button type="submit">Cancel</button>
+
+            
+        </form>
+    </body>
+</html>
